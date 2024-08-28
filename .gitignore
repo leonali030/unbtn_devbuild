@@ -12,3 +12,9 @@ web-build/
 
 # macOS
 .DS_Store
+
+# Ignore Android Google services file
+google-services.json
+
+# Ignore iOS Google services file
+GoogleService-Info.plist

@@ -13,9 +13,32 @@
         {
           "origin": "https://n"
         }
-      ]
+      ],
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      "@react-native-google-signin/google-signin"
     ],
     "name": "nbtn_devclient",
-    "slug": "nbtn_devclient"
+    "slug": "nbtn_devclient",
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "4b0f43cc-c409-44e3-b867-c7025b054bcf"
+      }
+    },
+    "android": {
+      "package": "com.leonaleelk.nbtn_devclient",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.leonaleelk.nbtn"
+    }
   }
 }
